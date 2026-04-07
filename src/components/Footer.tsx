@@ -1,5 +1,5 @@
 import { brand, navigation, socialLinks } from "@/brand.config";
-import { Instagram } from "lucide-react";
+import { Camera } from "lucide-react";
 
 export function Footer() {
   return (
@@ -25,7 +25,7 @@ export function Footer() {
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-[0.72rem] uppercase tracking-[0.18em] text-white/35 transition hover:text-[var(--paper)]"
           >
-            <Instagram className="h-3.5 w-3.5" />
+            <Camera className="h-3.5 w-3.5" />
             Instagram
           </a>
         </div>
